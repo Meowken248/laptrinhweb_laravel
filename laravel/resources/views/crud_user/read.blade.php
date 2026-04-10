@@ -10,13 +10,15 @@
                             <th>ID</th>
                             <th>Name</th>
                             <th>Email</th>
+                            <th>Like</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>{{$messi->id}}</td>
-                            <td>{{$messi->name}}</td>
-                            <td>{{$messi->email}}</td>
+                            <td>{{$user->id}}</td>
+                            <td>{{$user->name}}</td>
+                            <td>{{$user->email}}</td>
+                            <td>{{$user->like}}</td>
                         </tr>
                     </tbody>
                 </table>
